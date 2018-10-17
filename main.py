@@ -5,6 +5,7 @@ from sklearn.metrics import mean_squared_error
 
 diabetes = datasets.load_diabetes()
 
+# print(diabetes.keys())
 # dict_keys(['data', 'target', 'DESCR', 'feature_names'])
 
 # diabetes_X=diabetes.data[:,np.newaxis, 2]
